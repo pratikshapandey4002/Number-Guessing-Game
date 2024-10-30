@@ -1,0 +1,27 @@
+.game-container{
+    border: 3px solid rgb(173, 167, 167);
+    text-align: center;
+    margin: 4rem 7rem;
+    
+}
+.game-rules{
+    text-align:justify;
+    margin-left: 40%;
+}
+.input-section{
+    font-size: x-large;
+
+}
+#user-input{
+    font-size: x-large;
+    width: 150px;
+}
+#submit{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    background-color:rgb(197, 147, 197);
+}
+#submit:hover{
+    background-color:rgb(152, 114, 187);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./numberguessingGame.css">
+</head>
+<body>
+   <div class="game-container">
+    <h1>Number Guessing Game</h1>
+    <h3>Game Rules</h3>
+    <div class="game-rules">
+        <ol>
+            <li>
+                Choose a Number between 1 to 100
+            </li>
+            <li>
+                if your guess is correct, You Win!
+            </li>
+            <li>
+                if your guess is not correct, your counter will get incremented.
+            </li>
+        </ol>
+
+    </div>
+    
+    <h4>Let's see in how much takes, you can guess the correct Number</h4>
+    <div class="input-section">
+        <label for="user-input">Enter Your Guess</label>
+        <input id="user-input" type="number" max="100" min="0"><br>
+        <button id="submit">Submit</button> 
+    </div>
+    
+    <h2>Counter: <span id="user-count">0</span></h2>
+    <h1 id="winner"></h1>
+   </div> 
+   <script src="./numberguessinggame.js">
+
+   </script>
+</body>
+</html>
